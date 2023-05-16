@@ -1,0 +1,23 @@
+<h5 class="card-title mt-5 mb-3">Produtos</h5>
+  <table class="table table-striped" >
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Preço</th>
+        <th scope="col">Marca</th>
+        <th scope="col">Peso</th>
+        <th scope="col">Tamanho</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <th scope="row">{{ product.id }}</th>
+        <td>{{ product.name }}</td>
+        <td>{{ product.price.toFixed(2) }}</td>
+        <td>{{ product.brand }}</td>
+        <td>{{ product.weight}} kg</td>
+        <td>{{ product.size}} cm</td>
+      </tr>
+    </tbody>
+  </table>

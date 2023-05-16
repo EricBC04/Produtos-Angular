@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Geladeira Frost Free",
+      "price": 2500,
+      "brand": "Brastemp",
+      "weight": "80",
+      "size": "180"
+    },
+    {
+      "id": 2,
+      "name": "Máquina de Lavar Roupas",
+      "price": 1800,
+      "brand": "Electrolux",
+      "weight": "65",
+      "size": "85"
+    },
+    {
+      "id": 3,
+      "name": "Forno Elétrico",
+      "price": 600,
+      "brand": "Consul",
+      "weight": "15",
+      "size": "45"
+    },
+    {
+      "id": 4,
+      "name": "Aspirador de Pó",
+      "price": 350,
+      "brand": "Philips",
+      "weight": "4",
+      "size": "30"
+    }
+  ]
+}
